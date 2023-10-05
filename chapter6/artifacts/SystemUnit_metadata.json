@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "turnOn",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chapter6/ex6_ins.sol": "SystemUnit"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chapter6/ex6_ins.sol": {
+			"keccak256": "0xe6a743bb69eb885c557f1cdcdd287378a0002fb83bee0520698c33f453b3d9c1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1d84675c880650138a6136d1cbe6a27d1bb224d757cfbf23ef0bc1e9d6901c03",
+				"dweb:/ipfs/QmT3CTF6Nkyxg5AGV8pD8LMZRfMNGJfpCML34nfTVJsbGw"
+			]
+		}
+	},
+	"version": 1
+}

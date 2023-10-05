@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "workPlace",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "workingHours",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chapter6/inheritanceWith2class.sol": "PartTimer"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chapter6/inheritanceWith2class.sol": {
+			"keccak256": "0x3c631ac88e299efcde44c7f32aa188b5f0039275ff78699feb0572561fb44656",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://baf500fed713a699ed2036e03204172c2ef9c5d5d6fa546f76a2ba737f3f76ed",
+				"dweb:/ipfs/QmQLXAUS6ae4jGzoseQgUiDrWbrWkigd8dmyNr5XvtB6h2"
+			]
+		}
+	},
+	"version": 1
+}
