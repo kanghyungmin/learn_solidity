@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num2",
+						"type": "uint256"
+					}
+				],
+				"name": "division",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chapter7/tryCatch2.sol": "Math"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chapter7/tryCatch2.sol": {
+			"keccak256": "0x2be8ccfb1e9779ef4a931f72bf5bef534f6f587010c98c87c6e046f105bcef2d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bc3235315b71a577172c1af6ba119538594725359b2bbebf1def3230fc20c425",
+				"dweb:/ipfs/QmbCnn1HTpHT6s8reKEaUsGmVqonJ2c35DSM64buJqasaQ"
+			]
+		}
+	},
+	"version": 1
+}

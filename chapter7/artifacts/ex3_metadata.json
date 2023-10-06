@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "arrPop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "arrPopWithTryCatch",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chapter7/practice3.sol": "ex3"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chapter7/practice3.sol": {
+			"keccak256": "0x9ebafe10b3415260331f775684fa32408c7287ada8c4c8929925c2ab56a04e95",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://023c726fba8cbb6cfa9bc4ac96f88b4aebfed6f55cf43c79e41f435bd48a7bdf",
+				"dweb:/ipfs/QmYahFUKrTqsCvTUCU1h1jhcuQE6166DusqaJYAbc2bgxs"
+			]
+		}
+	},
+	"version": 1
+}
