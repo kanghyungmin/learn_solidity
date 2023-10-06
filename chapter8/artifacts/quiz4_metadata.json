@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num2",
+						"type": "uint256"
+					}
+				],
+				"name": "subtraction",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chapter8/quiz4.sol": "quiz4"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chapter8/quiz4.sol": {
+			"keccak256": "0x508249835dd4ec8f987b99a5acbfebb241570dc0c8c20b4bf0aa837f483d863f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://05cb672bc4b680934ec22397a545116cf422fa990d890f3e6012e0e0c30f874c",
+				"dweb:/ipfs/QmUAojyAtiVeQvUCWJQaSB6RuZ3up4oHYsMcikr5yfshvg"
+			]
+		}
+	},
+	"version": 1
+}

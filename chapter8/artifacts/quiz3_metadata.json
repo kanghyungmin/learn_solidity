@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "lightStatus",
+				"outputs": [
+					{
+						"internalType": "enum quiz3.Switch",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "turnOffTheLight",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "turnOnTheLight",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chapter8/quiz3.sol": "quiz3"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chapter8/quiz3.sol": {
+			"keccak256": "0x168c87b62513ce1cd110f3970775dcb3ae4b5e28827c12c2ddb2732cf9546fe1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b091a78d2dd8f65489ad56d07dcd254452c0665a341523b5d0b4b709770cc8fa",
+				"dweb:/ipfs/QmYJY7WNJja1UU632evH2vdKueVEtnKELB5pK8sfCD7WoF"
+			]
+		}
+	},
+	"version": 1
+}
