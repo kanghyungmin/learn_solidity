@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num2",
+						"type": "uint256"
+					}
+				],
+				"name": "CallMath",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chapter9/quiz3.sol": "quiz3"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chapter9/quiz3.sol": {
+			"keccak256": "0xf2b1ee2a31ffb6a9d7955697fba31a87dda8ff5d00bc56f3a427b7a34a1784fd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2a7803b58a9a14e189bb7994f89658b87cfd397d34a0237dccc7f4922c97ff03",
+				"dweb:/ipfs/QmX6TdpkqHDyApopLQgQxf9MJpJoguAVgcSbcrp2voAcnd"
+			]
+		}
+	},
+	"version": 1
+}

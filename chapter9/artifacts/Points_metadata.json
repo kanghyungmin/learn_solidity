@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "form",
+						"type": "address"
+					}
+				],
+				"name": "From",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_point",
+						"type": "uint256"
+					}
+				],
+				"name": "addPoints",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "total",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chapter9/delegate.sol": "Points"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chapter9/delegate.sol": {
+			"keccak256": "0xb9da466edef8e0d8d8b31728f1ab24bd3409e034322ea901fb5611c35e1aa409",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8bfcbf27c9fca65bcae274e91e7fbab1c6b4cac6455fa98b35e0c78b659bca8a",
+				"dweb:/ipfs/QmUrjxWYyp3714iBvZPwNdwCGnRPxPSbZuFAxpyxyfTzYU"
+			]
+		}
+	},
+	"version": 1
+}

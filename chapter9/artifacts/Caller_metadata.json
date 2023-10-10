@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "expectFallback",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "outputWithEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chapter9/ex5.sol": "Caller"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chapter9/ex5.sol": {
+			"keccak256": "0x61e737604a5a8712fa8c40aeebb3ed1743ce6693762409c712538c834df5d9c1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2b4dbf31cd926a5dd715d0f0ea285b88a84463407e8fcc3d748f53b1a28cfce0",
+				"dweb:/ipfs/QmVdL7iskdJBuNyKAGqzvU3gJoacng6BKtXwJzAKJwzJ1n"
+			]
+		}
+	},
+	"version": 1
+}

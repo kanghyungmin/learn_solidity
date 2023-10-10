@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "sendEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chapter9/quiz1.sol": "quiz1"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chapter9/quiz1.sol": {
+			"keccak256": "0x3337a005b337d69b7bb291648514bb9789b33b85493015594de3597ba84d81da",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dff6d0099ece27ffacd0b08f7b8bde6b171d0dc9908cf6173335a8c35cf04bd8",
+				"dweb:/ipfs/QmQymZmiQZ4ton26EiGPpyAc15gMVBupK6rZR1kDVr954K"
+			]
+		}
+	},
+	"version": 1
+}
